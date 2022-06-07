@@ -1,0 +1,129 @@
+/* body {
+    background-color: teal;
+} */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Gentium Plus', serif;
+    color: #005555;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 6rem;
+}
+
+h2 {
+    font-family: 'Tai Heritage Pro', serif;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Tai Heritage Pro', serif;
+    margin: 0;
+}
+
+/* .middle-container,
+.bottom-container {
+    width: 200px;
+    height: 200px;
+} */
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    background-color: #A1E3D8;
+}
+
+/* .middle-container {
+    background-color: cyan;
+}
+
+.bottom-container {
+    background-color: crimson;
+} */
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.skill {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    display: inline-block;
+}
+
+th {
+    /* text-decoration:dashed; */
+    text-decoration: overline;
+}
+
+thead{
+    margin-top: 100px;
+}
+.skills {
+    background-color: #069A8E;
+    color: #F7FF93;
+}
+
+.profile, .experience {
+    background-color: #FFFFFF;
+    color: #005555;
+}
+
+.footer, .contact-me, .bottom-container {
+    background-color: #F7FF93;
+}
+
+.profile {
+    height: 30rem;
+    margin-top: 5rem;
+}
+
+.contact-ico {
+    width: 50px;
+    height: 50px;
+}
+
+#profile_pic {
+    border:6px solid #005555;
+    border-radius: 50%;
+}
+
+/* #summary {
+    font-size: 2.5rem;
+} */
+
+.skill-row {
+    width: 75%;
+    margin: auto;
+}
+
+table {
+    text-align: justify;
+}
+
+.experience > table{
+    width: 75%;
+}
+
+#about {
+    width: 50%;
+    margin: auto;
+}
